@@ -951,6 +951,144 @@ a {
 }
 
 
+
+/* =========================================================
+   EXPERIENCE
+========================================================= */
+
+.experience-list {
+  margin-top: 52px;
+}
+
+.experience-card {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 22px;
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(55, 205, 255, 0.08),
+      transparent 35%
+    ),
+    var(--card);
+  box-shadow: var(--shadow);
+}
+
+.experience-marker {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.experience-marker::after {
+  content: "";
+  position: absolute;
+  top: 66px;
+  bottom: 0;
+  width: 1px;
+  background: var(--line);
+}
+
+.experience-icon {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  color: #080b13;
+  background: linear-gradient(135deg, #9a5dff, #3ccfff);
+}
+
+.experience-content {
+  min-width: 0;
+}
+
+.experience-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.experience-type {
+  color: #a879ff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+}
+
+.experience-date {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.experience-content h3 {
+  margin: 0 0 8px;
+  color: var(--heading);
+  font: 600 27px "Space Grotesk";
+}
+
+.experience-company {
+  margin: 0;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.experience-company span {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.experience-content ul {
+  display: grid;
+  gap: 10px;
+  margin: 22px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.experience-content li::marker {
+  color: #9b6cff;
+}
+
+.experience-tags {
+  margin-top: 22px;
+}
+
+@media (max-width: 600px) {
+  .experience-card {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 22px;
+  }
+
+  .experience-marker {
+    justify-content: flex-start;
+  }
+
+  .experience-marker::after {
+    display: none;
+  }
+
+  .experience-content h3 {
+    font-size: 23px;
+  }
+
+  .experience-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+  }
+}
+
 /* =========================================================
    SKILLS
 ========================================================= */
