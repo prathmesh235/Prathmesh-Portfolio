@@ -329,7 +329,8 @@ function App() {
               <a
                 className="secondary-btn"
                 href="/Prathmesh_Panmand_Resume.pdf"
-                download
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Download size={18} />
                 Download Resume
