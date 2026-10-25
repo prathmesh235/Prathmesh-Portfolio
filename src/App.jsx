@@ -217,6 +217,7 @@ function App() {
         >
           {[
             "about",
+            "experience",
             "skills",
             "projects",
             "certifications",
@@ -328,7 +329,7 @@ function App() {
               <a
                 className="secondary-btn"
                 href="/Prathmesh_Panmand_Resume.pdf"
-                download
+                download="Prathmesh_Panmand_Resume.pdf"
               >
                 <Download size={18} />
                 Download Resume
@@ -542,6 +543,80 @@ function App() {
 
           </div>
 
+        </section>
+
+
+        {/* ================= EXPERIENCE ================= */}
+
+        <section
+          id="experience"
+          className="section experience"
+        >
+          <div className="section-heading">
+            <p className="eyebrow">
+              EXPERIENCE
+            </p>
+
+            <h2>
+              Where I'm{" "}
+              <span>
+                growing.
+              </span>
+            </h2>
+
+            <p>
+              My current professional learning journey in Java Full Stack development.
+            </p>
+          </div>
+
+          <div className="experience-list">
+            <article className="experience-card">
+              <div className="experience-marker">
+                <div className="experience-icon">
+                  <Code2 size={24} />
+                </div>
+              </div>
+
+              <div className="experience-content">
+                <div className="experience-meta">
+                  <span className="experience-type">
+                    INTERNSHIP
+                  </span>
+                  <span className="experience-date">
+                    Oct 2026 – Present · 3 months
+                  </span>
+                </div>
+
+                <h3>
+                  Java Full Stack Intern
+                </h3>
+
+                <p className="experience-company">
+                  TechnoSignia Software Training Institute
+                  <span> · Pune, Maharashtra</span>
+                </p>
+
+                <ul>
+                  <li>
+                    Selected through an interview process; selection confirmed on 8 October 2026.
+                  </li>
+                  <li>
+                    Participating in a three-month Java Full Stack internship.
+                  </li>
+                  <li>
+                    Focus area: Java, backend development, frontend fundamentals and database integration.
+                  </li>
+                </ul>
+
+                <div className="tags experience-tags">
+                  <span>Java</span>
+                  <span>Full Stack Development</span>
+                  <span>Backend</span>
+                  <span>SQL</span>
+                </div>
+              </div>
+            </article>
+          </div>
         </section>
 
         {/* ================= SKILLS ================= */}
