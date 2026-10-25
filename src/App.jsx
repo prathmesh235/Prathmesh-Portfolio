@@ -328,7 +328,7 @@ function App() {
 
               <a
                 className="secondary-btn"
-                href="Prathmesh_Panmand_Resume.pdf"
+                href="/Prathmesh_Panmand_Resume.pdf"
                 download="Prathmesh_Panmand_Resume.pdf"
               >
                 <Download size={18} />
