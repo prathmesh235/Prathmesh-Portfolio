@@ -173,7 +173,8 @@ const certifications = [
 ];
 
 function App() {
-  const [dark, setDark] = useState(true);
+  // false = Light mode by default, true = Dark mode
+  const [dark, setDark] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
