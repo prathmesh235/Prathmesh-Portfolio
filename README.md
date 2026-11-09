@@ -31,7 +31,7 @@ My current focus is on:
 - 🔧 REST APIs
 - 💻 Software Development
 
-My goal is to build scalable, reliable, and user-friendly software solutions.
+My goal is to build scalable, reliable, and user-friendly software solutions
 
 ---
 
