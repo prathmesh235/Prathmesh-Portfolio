@@ -1,4 +1,4 @@
-# 🚀 Prathmesh Gavram Panmand — Portfolio
+# 🚀 Prathmesh Gavram Panmand — Portfolio.
 
 <div align="center">
 
